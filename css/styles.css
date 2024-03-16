@@ -68,14 +68,14 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: inherit;
+  letter-spacing: 0.02em;
 
   text-align: center;
   text-transform: capitalize;
@@ -138,13 +138,8 @@ header .logotype > span {
 }
 
 .first-head {
-  letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-}
-
-.second-head {
-  letter-spacing: 0.02em;
 }
 
 /* hero section */
