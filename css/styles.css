@@ -7,9 +7,9 @@
   --text-light-slate: #8e8f99;
   --accent: #e7e9fc;
   --white: #ffffff;
+  --light: #f4f4fd;
 
   --bg-modal-overlay: #2e2f42;
-  --bg-light: #f4f4fd;
   --bg-hero: #2e2f42;
   --bg-modal: #fcfcfc;
 }
@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: var(--text-slate);
   background-color: var(--white);
@@ -34,12 +35,12 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: var(--hover-state);
   cursor: pointer;
 }
 
-a:focus,
 a:active {
   color: var(--primary-brand);
 }
@@ -48,13 +49,19 @@ button {
   border: none;
   color: var(--white);
   background-color: var(--primary-brand);
+
   font-size: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   cursor: pointer;
 
   display: block;
 }
 
 button:hover,
+button:focus,
 button:active {
   background-color: var(--hover-state);
 }
@@ -62,19 +69,22 @@ button:active {
 h1 {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
 
   text-align: center;
+  text-transform: capitalize;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 h1,
@@ -87,17 +97,43 @@ h6 {
   margin: 0;
 }
 
+footer {
+  background-color: var(--dark);
+}
+
+footer .footer-text {
+  color: var(--light);
+}
+
+/* header styles */
+header .nav-link {
+  font-weight: 500;
+}
+
+header .address {
+  font-style: normal;
+}
+
+.address-email,
+.address-phone {
+  color: var(--text-slate);
+}
+
+/*logo styles  */
 .logotype {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.166;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 
   text-transform: uppercase;
+
+  color: var(--primary-brand);
 }
 
 .logotype > span {
-  color: var(--primary-brand);
+  color: var(--dark);
 }
 
 /* hero section */
@@ -105,7 +141,7 @@ section.hero {
   background-color: var(--bg-hero);
 }
 
-section.hero > h1 {
+section.hero > .hero-h1 {
   text-align: center;
   color: var(--white);
 }
@@ -114,14 +150,15 @@ section.hero > button {
   margin: 0 auto;
 }
 
+/* benefits section */
+
 /* team section */
 section.team {
-  background-color: var(--bg-light);
+  background-color: var(--light);
 }
 
 section.team li.team-item {
   background-color: var(--white);
-  box-shadow: 0px 3px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* portfolio section */
