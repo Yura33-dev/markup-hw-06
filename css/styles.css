@@ -1,0 +1,130 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --hover-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text-slate: #434455;
+  --text-light-slate: #8e8f99;
+  --accent: #e7e9fc;
+  --white: #ffffff;
+
+  --bg-modal-overlay: #2e2f42;
+  --bg-light: #f4f4fd;
+  --bg-hero: #2e2f42;
+  --bg-modal: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--text-slate);
+  background-color: var(--white);
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-state);
+  cursor: pointer;
+}
+
+a:focus,
+a:active {
+  color: var(--primary-brand);
+}
+
+button {
+  border: none;
+  color: var(--white);
+  background-color: var(--primary-brand);
+  font-size: inherit;
+  cursor: pointer;
+
+  display: block;
+}
+
+button:hover,
+button:active {
+  background-color: var(--hover-state);
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.071;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark);
+  margin: 0;
+}
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.166;
+
+  text-transform: uppercase;
+}
+
+.logotype > span {
+  color: var(--primary-brand);
+}
+
+/* hero section */
+section.hero {
+  background-color: var(--bg-hero);
+}
+
+section.hero > h1 {
+  text-align: center;
+  color: var(--white);
+}
+
+section.hero > button {
+  margin: 0 auto;
+}
+
+/* team section */
+section.team {
+  background-color: var(--bg-light);
+}
+
+section.team li.team-item {
+  background-color: var(--white);
+  box-shadow: 0px 3px 6px rgba(46, 47, 66, 0.08);
+}
+
+/* portfolio section */
+section.portfolio li.portfolio-item {
+  border: 1px solid var(--accent);
+}
