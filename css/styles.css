@@ -56,8 +56,6 @@ button {
   letter-spacing: 0.04em;
 
   cursor: pointer;
-
-  display: block;
 }
 
 button:hover,
@@ -97,14 +95,6 @@ h6 {
   margin: 0;
 }
 
-footer {
-  background-color: var(--dark);
-}
-
-footer .footer-text {
-  color: var(--light);
-}
-
 /* header styles */
 header .nav-link {
   font-weight: 500;
@@ -114,9 +104,18 @@ header .address {
   font-style: normal;
 }
 
-.address-email,
-.address-phone {
+.address-link {
   color: var(--text-slate);
+}
+
+/* footer styles */
+footer {
+  background-color: var(--dark);
+}
+
+footer .footer-text,
+footer .footer-logo-span {
+  color: var(--light);
 }
 
 /*logo styles  */
@@ -132,7 +131,7 @@ header .address {
   color: var(--primary-brand);
 }
 
-.logotype > span {
+header .logotype > span {
   color: var(--dark);
 }
 
@@ -141,7 +140,8 @@ section.hero {
   background-color: var(--bg-hero);
 }
 
-section.hero > .hero-h1 {
+section.hero > .first-head {
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
 }
@@ -151,6 +151,9 @@ section.hero > button {
 }
 
 /* benefits section */
+section.benefits .second-head {
+  letter-spacing: 0.02em;
+}
 
 /* team section */
 section.team {
