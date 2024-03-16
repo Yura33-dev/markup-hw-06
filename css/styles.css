@@ -139,8 +139,16 @@ header .logotype > span {
 .first-headline {
   text-align: center;
   color: var(--white);
+  letter-spacing: 0.02em;
 }
 
+.second-headline {
+  letter-spacing: 0.02em;
+}
+
+.third-headline {
+  letter-spacing: 0.02em;
+}
 /* hero section */
 section.hero {
   background-color: var(--bg-hero);
