@@ -141,10 +141,6 @@ header .logotype > span {
   color: var(--white);
 }
 
-.second-headline {
-  letter-spacing: 0.02em;
-}
-
 /* hero section */
 section.hero {
   background-color: var(--bg-hero);
