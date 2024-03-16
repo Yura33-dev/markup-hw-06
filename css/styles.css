@@ -68,14 +68,12 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02em;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
 
   text-align: center;
   text-transform: capitalize;
@@ -93,6 +91,7 @@ h3,
 h4,
 h5,
 h6 {
+  letter-spacing: inherit;
   color: var(--dark);
   margin: 0;
 }
@@ -137,9 +136,13 @@ header .logotype > span {
   color: var(--dark);
 }
 
-.first-head {
+.first-headline {
   text-align: center;
   color: var(--white);
+}
+
+.second-headline {
+  letter-spacing: 0.02em;
 }
 
 /* hero section */
