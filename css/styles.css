@@ -68,12 +68,14 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: inherit;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: inherit;
 
   text-align: center;
   text-transform: capitalize;
@@ -135,15 +137,19 @@ header .logotype > span {
   color: var(--dark);
 }
 
-/* hero section */
-section.hero {
-  background-color: var(--bg-hero);
-}
-
-section.hero > .first-head {
+.first-head {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
+}
+
+.second-head {
+  letter-spacing: 0.2em;
+}
+
+/* hero section */
+section.hero {
+  background-color: var(--bg-hero);
 }
 
 section.hero > button {
@@ -151,9 +157,6 @@ section.hero > button {
 }
 
 /* benefits section */
-section.benefits .second-head {
-  letter-spacing: 0.02em;
-}
 
 /* team section */
 section.team {
