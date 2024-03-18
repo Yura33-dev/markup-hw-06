@@ -216,6 +216,7 @@ img {
 .footer .footer-social > .social-title {
   color: var(--white);
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .footer .footer-social > .footer-social-links {
@@ -418,6 +419,7 @@ section.team .team-item > .item-info-wrapper > .item-info-social {
   display: flex;
   gap: 24px;
   align-items: center;
+  justify-content: center;
 
   padding: 8px 16px 0 16px;
 }
@@ -454,7 +456,13 @@ section.team
   > .item-info-wrapper
   > .item-info-social
   > .social-item
-  > .social-item-link:hover {
+  > .social-item-link:hover,
+section.team
+  .team-item
+  > .item-info-wrapper
+  > .item-info-social
+  > .social-item
+  > .social-item-link:focus {
   background-color: var(--hover-state);
 }
 
