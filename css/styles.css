@@ -784,7 +784,7 @@ section.portfolio .portfolio-list .portfolio-item > .portfolio-info > h3 {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-overlay .fieldset .custom-checkbox {
+.modal-overlay .custom-checkbox {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -801,14 +801,18 @@ section.portfolio .portfolio-list .portfolio-item > .portfolio-info > h3 {
   fill: transparent;
 }
 
-.modal-overlay .fieldset .hidden-input:checked .custom-checkbox {
+.modal-overlay .visually-hidden:checked + .form-label > .custom-checkbox {
   background-color: var(--hover-state);
   border: none;
   fill: var(--light);
 }
 
+.modal-overlay .visually-hidden:focus + .form-label > .custom-checkbox {
+  border: 2px solid var(--hover-state);
+}
+
 /*  */
-.modal-overlay .form-label.checkbox > .agree-link {
+.modal-overlay .form-label > .agree-link {
   color: var(--primary-brand);
   line-height: 1.33333;
   text-decoration: underline;
