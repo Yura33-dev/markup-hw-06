@@ -807,10 +807,6 @@ section.portfolio .portfolio-list .portfolio-item > .portfolio-info > h3 {
   fill: var(--light);
 }
 
-.modal-overlay .visually-hidden:focus + .form-label > .custom-checkbox {
-  border: 2px solid var(--hover-state);
-}
-
 /*  */
 .modal-overlay .form-label > .agree-link {
   color: var(--primary-brand);
