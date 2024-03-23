@@ -29,9 +29,15 @@
           <a class="logotype" href="./index.html">Web<span>Studio</span></a>
 
           <ul class="menu">
-            <li><a href="./index.html" class="nav-link">Studio</a></li>
-            <li><a href="" class="nav-link">Portfolio</a></li>
-            <li><a href="" class="nav-link">Contacts</a></li>
+            <li class="menu-item">
+              <a href="./index.html" class="menu-link active-menu-link"
+                >Studio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Portfolio</a>
+            </li>
+            <li class="menu-item"><a href="" class="menu-link">Contacts</a></li>
           </ul>
         </nav>
 
@@ -49,6 +55,12 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -122,40 +134,51 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                srcset="./images/team-1-min.jpg 1x, ./images/team-1@2.jpg 2x"
                 src="./images/team-1-min.jpg"
                 alt="person"
                 width="264"
                 height="260"
+                class="team-item-image"
               />
               <div class="item-info-wrapper">
                 <h3 class="third-headline">Mark Guerrero</h3>
                 <p class="item-text">Product Designer</p>
 
-                <ul class="item-info-social">
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://instagram.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                <ul class="social-networks-list">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://instagram.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#instagram-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://twitter.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a class="social-networks-link" href="https://twitter.com/">
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://facebook.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://facebook.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://linkedin.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://linkedin.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#linkedin-icon"></use>
                       </svg>
                     </a>
@@ -165,40 +188,51 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/team-2-min.jpg 1x, ./images/team-2@2.jpg 2x"
                 src="./images/team-2-min.jpg"
                 alt="person"
                 width="264"
                 height="260"
+                class="team-item-image"
               />
               <div class="item-info-wrapper">
                 <h3 class="third-headline">Tom Ford</h3>
                 <p class="item-text">Frontend Developer</p>
 
-                <ul class="item-info-social">
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://instagram.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                <ul class="social-networks-list">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://instagram.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#instagram-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://twitter.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a class="social-networks-link" href="https://twitter.com/">
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://facebook.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://facebook.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://linkedin.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://linkedin.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#linkedin-icon"></use>
                       </svg>
                     </a>
@@ -208,40 +242,51 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/team-3-min.jpg 1x, ./images/team-3@2.jpg 2x"
                 src="./images/team-3-min.jpg"
                 alt="person"
                 width="264"
                 height="260"
+                class="team-item-image"
               />
               <div class="item-info-wrapper">
                 <h3 class="third-headline">Camila Garcia</h3>
                 <p class="item-text">Marketing</p>
 
-                <ul class="item-info-social">
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://instagram.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                <ul class="social-networks-list">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://instagram.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#instagram-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://twitter.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a class="social-networks-link" href="https://twitter.com/">
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://facebook.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://facebook.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://linkedin.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://linkedin.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#linkedin-icon"></use>
                       </svg>
                     </a>
@@ -251,40 +296,51 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/team-4-min.jpg 1x, ./images/team-4@2.jpg 2x"
                 src="./images/team-4-min.jpg"
                 alt="person"
                 width="264"
                 height="260"
+                class="team-item-image"
               />
               <div class="item-info-wrapper">
                 <h3 class="third-headline">Daniel Wilson</h3>
                 <p class="item-text">UI Designer</p>
 
-                <ul class="item-info-social">
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://instagram.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                <ul class="social-networks-list">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://instagram.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#instagram-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://twitter.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a class="social-networks-link" href="https://twitter.com/">
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://facebook.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://facebook.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="social-item">
-                    <a class="social-item-link" href="https://linkedin.com/">
-                      <svg width="16" height="16" class="social-item-icon">
+                  <li class="social-networks-item">
+                    <a
+                      class="social-networks-link"
+                      href="https://linkedin.com/"
+                    >
+                      <svg width="16" height="16" class="social-networks-icon">
                         <use href="./images/icons.svg#linkedin-icon"></use>
                       </svg>
                     </a>
@@ -303,6 +359,10 @@
             <li class="portfolio-item">
               <div class="portfolio-item-image">
                 <img
+                  srcset="
+                    ./images/portfolio-1-min.jpg 1x,
+                    ./images/portfolio-1@2.jpg   2x
+                  "
                   src="./images/portfolio-1-min.jpg"
                   alt="Bank application"
                   width="360"
@@ -323,6 +383,10 @@
             <li class="portfolio-item">
               <div class="portfolio-item-image">
                 <img
+                  srcset="
+                    ./images/portfolio-2-min.jpg 1x,
+                    ./images/portfolio-2@2.jpg   2x
+                  "
                   src="./images/portfolio-2-min.jpg"
                   alt="Phone and payment terminal"
                   width="360"
@@ -343,6 +407,10 @@
             <li class="portfolio-item">
               <div class="portfolio-item-image">
                 <img
+                  srcset="
+                    ./images/portfolio-3-min.jpg 1x,
+                    ./images/portfolio-3@2.jpg   2x
+                  "
                   src="./images/portfolio-3-min.jpg"
                   alt="Phone and payment terminal"
                   width="360"
@@ -363,6 +431,10 @@
             <li class="portfolio-item">
               <div class="portfolio-item-image">
                 <img
+                  srcset="
+                    ./images/portfolio-4-min.jpg 1x,
+                    ./images/portfolio-4@2.jpg   2x
+                  "
                   src="./images/portfolio-4-min.jpg"
                   alt="Phone and payment terminal"
                   width="360"
@@ -383,6 +455,10 @@
             <li class="portfolio-item">
               <div class="portfolio-item-image">
                 <img
+                  srcset="
+                    ./images/portfolio-5-min.jpg 1x,
+                    ./images/portfolio-5@2.jpg   2x
+                  "
                   src="./images/portfolio-5-min.jpg"
                   alt="Phone and payment terminal"
                   width="360"
@@ -403,6 +479,10 @@
             <li class="portfolio-item">
               <div class="portfolio-item-image">
                 <img
+                  srcset="
+                    ./images/portfolio-6-min.jpg 1x,
+                    ./images/portfolio-6@2.jpg   2x
+                  "
                   src="./images/portfolio-6-min.jpg"
                   alt="Phone and payment terminal"
                   width="360"
@@ -439,31 +519,31 @@
 
         <div class="footer-social">
           <p class="social-title">Social media</p>
-          <ul class="footer-social-links">
-            <li class="social-links-item">
-              <a href="" class="social-link">
-                <svg width="24" height="24" class="icon">
+          <ul class="social-networks-list">
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
                   <use href="./images/icons.svg#instagram-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
-              <a href="" class="social-link">
-                <svg width="24" height="24" class="icon">
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
                   <use href="./images/icons.svg#twitter-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
-              <a href="" class="social-link">
-                <svg width="24" height="24" class="icon">
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
                   <use href="./images/icons.svg#facebook-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
-              <a href="" class="social-link">
-                <svg width="24" height="24" class="icon">
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
                   <use href="./images/icons.svg#linkedin-icon"></use>
                 </svg>
               </a>
@@ -495,9 +575,9 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-active">
+    <div class="modal-overlay">
       <div class="modal">
-        <button type="button" class="modal-close">
+        <button type="button" class="btn-close">
           <svg width="8" height="8" class="icon">
             <use href="./images/icons.svg#close-icon"></use>
           </svg>
@@ -584,13 +664,91 @@
                   <use href="./images/icons.svg#done-icon"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="agree-link">Privacy Policy</a>
+              <div class="text-wrapper">
+                I accept the terms and conditions of the
+                <a href="" class="agree-link">Privacy Policy</a>
+              </div>
             </label>
           </div>
 
           <button type="submit" class="form-submit-btn">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="mobile-menu-overlay">
+      <div class="mobile-menu">
+        <button type="button" class="btn-close">
+          <svg width="8" height="8" class="icon">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-menu-nav">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a
+                href="./index.html"
+                class="menu-item-link active-mobile-menu-link"
+                >Studio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-item-link">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-item-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="company-info">
+          <address class="address">
+            <ul class="address-info">
+              <li>
+                <a href="mailto:info@devstudio.com" class="address-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="address-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+
+          <ul class="social-networks-list">
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks-item">
+              <a href="" class="social-networks-link">
+                <svg width="24" height="24" class="social-networks-icon">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
